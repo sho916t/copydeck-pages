@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>プライバシーポリシー - CopyDeck</title>
+<style>
+body{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans",sans-serif;max-width:640px;margin:60px auto;padding:0 20px;line-height:1.8;color:#222}
+h1{font-size:24px}
+h2{font-size:17px;margin-top:32px}
+</style>
+</head>
+<body>
+<h1>プライバシーポリシー</h1>
+<p>CopyDeckは個人利用のために開発されているmacOSアプリです。このページでは、CopyDeckが扱うデータについて説明します。</p>
+
+<h2>保存するデータ</h2>
+<p>コピーした内容（テキスト・画像）はAES-GCMで暗号化され、このMac内にのみ保存されます。外部サーバーへ送信されることはありません。</p>
+
+<h2>除外設定</h2>
+<p>ユーザーが指定したアプリでコピーした内容や、concealed/transient指定のあるクリップボード内容は保存されません。</p>
+
+<h2>画像のOCR</h2>
+<p>画像内のテキスト認識はApple純正のVision frameworkを使用し、デバイス上でのみ処理されます。外部へ送信されません。</p>
+
+<h2>Google Sheets連携（AI Personal Hub、任意機能）</h2>
+<p>ユーザーが明示的に設定・接続した場合のみ、指定したGoogle Sheetsとの連携が行われます。CopyDeckはSnippetsを読み取り、Signalsの集計値だけを書き戻します。クリップボード本文・コピーした実データ・会話本文は一切送信しません。OAuthの認証情報（refresh token）はmacOSのKeychainに保存され、ログには出力されません。</p>
+
+<h2>お問い合わせ</h2>
+<p>本アプリは個人開発のため、GitHubリポジトリのIssueにてお問い合わせください。</p>
+</body>
+</html>
